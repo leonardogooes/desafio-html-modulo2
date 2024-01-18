@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #54B2ED;
+    padding: 10px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #0f5384;
+    min-height: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+div.text {
+    background-color: #F4F4F4;
+    min-height: 270px;
+    padding: 20px;
+    text-align: left;
+}
+div.structure {
+    background-color: rgb(222, 236, 251);
+    min-height: 100px;
+    padding: 20px;
+    text-align: left;
+}
+table {
+    border: solid 1px lightgray;
+}
+caption {
+    background-color: #052892;
+    color: white;
+}
+table thead th {
+    background-color: #04217a;
+    color: white;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+table tbody tr:hover td {
+    background-color: #E9E9E9;
+    cursor: pointer;
+}
+div.address {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+div.personal {
+    margin: 5px;
+}
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+fieldset {
+    margin: 20px;
+    border-radius: 15px;
+    border-color: lightgray;
+}
+div.button {
+    width: 100%;
+    min-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button[type="reset"]{
+    padding: 5px 7px;
+    font-size: 13px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+}
+button[type="submit"]{
+    padding: 5px 7px;
+    font-size: 13px;
+    background-color: #04217a;
+    border: 1px solid #04217a;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+}
+}
+.footer {
+    background-color: #34b4eb;
+    min-height: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+div.container {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="submit"]{
+    padding: 5px 15px;
+    font-size: 24px;
+    background-color: #033e69;
+    border: 1px solid #033e69;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+}
